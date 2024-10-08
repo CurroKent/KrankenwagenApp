@@ -1,0 +1,93 @@
+{
+  "name": "bienvenida",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "pWXI4Vcqx2jEuM5dYJzrT7",
+    "node": "31:99",
+    "version": "5940045180",
+    "component-id": "dcee1e9c80130582e5c7de401eea21c3577307f4"
+  },
+  "default": "Bienvenida",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Bienvenido/a Dr. House"
+      }
+    ],
+    "modes": {
+      "Bienvenida": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": 8.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "cross-axis-align": "start",
+            "children": [
+              "Bienvenido/a Dr. House"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 241.13207547169813,
+              "saturation": 0.40151515151515155,
+              "value": 0.5176470588235295
+            }
+          },
+          {
+            "id": "Bienvenido/a Dr. House",
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "$Bienvenido/a Dr. House text content",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "text-size": 32.0,
+            "line-height": 1.2102272510528564,
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "Bienvenido/a Dr. House text content": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Bienvenida",
+      "size": {
+        "width": 400.0,
+        "height": 39.0
+      },
+      "parameters": {
+        "Bienvenido/a Dr. House text content": "Bienvenido/a Dr. House"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
